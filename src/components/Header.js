@@ -31,13 +31,23 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
+                <a className="smoothscroll" href="#certificate">
+                  Certificates
+                </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#portfolio">
                   Works
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#certificate">
-                  Certificates
+                <a className="smoothscroll" href="#achive">
+                  Achievements
+                </a>
+              </li>
+              <li>
+                <a className="smoothscroll" href="#hall">
+                  Hall of Fame
                 </a>
               </li>
               <li>

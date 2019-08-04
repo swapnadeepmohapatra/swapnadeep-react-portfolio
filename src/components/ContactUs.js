@@ -18,7 +18,6 @@ export default class ContactUs extends Component {
   }
 
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="contact">
         <div className="row section-head">
@@ -57,6 +56,17 @@ export default class ContactUs extends Component {
               </label>
               <input type="submit" value="Submit" />
             </form>
+          </div>
+        </div>
+        <div className="row section-head">
+          <div className="ten columns">
+            <p className="lead">
+              <ul>
+                <li>Name : Swapnadeep Mohapatra</li>
+                <li>Email : swapnadeep456@gmail.com</li>
+                <li>Phone Number : 8763039380</li>
+              </ul>
+            </p>
           </div>
         </div>
       </section>

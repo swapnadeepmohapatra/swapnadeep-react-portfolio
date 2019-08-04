@@ -90,6 +90,28 @@ let resumeData = {
       skillname: "Python"
     }
   ],
+  projects: [
+    {
+      name: "Weather App",
+      description: "Android",
+      imgurl: "images/projects/iot-img1.png"
+    },
+    {
+      name: "e-SwachhBin",
+      description: "IoT",
+      imgurl: "images/projects/and-img1.png"
+    },
+    {
+      name: "Bus Booking",
+      description: "Web",
+      imgurl: "images/projects/web-img1.png"
+    },
+    {
+      name: "Face Detector",
+      description: "Python",
+      imgurl: "images/projects/py-img1.png"
+    }
+  ],
   portfolio: [
     {
       name: "Android Development",

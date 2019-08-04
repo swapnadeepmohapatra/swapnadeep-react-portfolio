@@ -10,6 +10,10 @@ import Footer from "./components/Footer";
 import resumeData from "./resumeData";
 import Certificates from "./components/Certificates";
 import AchivementsHeader from "./components/AchivementsHeader";
+import PrizesHeader from "./components/PrizesHeader";
+import Achive from "./components/Achive";
+import HallHeader from "./components/HallHeader";
+import Hall from "./components/Hall";
 
 class App extends Component {
   render() {
@@ -19,9 +23,13 @@ class App extends Component {
         <About resumeData={resumeData} />
         <WorkHeader resumeData={resumeData} />
         <Resume resumeData={resumeData} />
-        <Portfolio resumeData={resumeData} />
-        <AchivementsHeader resumeData={resumeData} />
         <Certificates resumeData={resumeData} />
+        <AchivementsHeader resumeData={resumeData} />
+        <Portfolio resumeData={resumeData} />
+        <PrizesHeader resumeData={resumeData} />
+        <Achive resumeData={resumeData} />
+        <HallHeader />
+        <Hall />
         <Testimonials resumeData={resumeData} />
         <ContactUs resumeData={resumeData} />
         <Footer resumeData={resumeData} />

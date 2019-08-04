@@ -6,7 +6,7 @@ export default class Certificates extends Component {
       <section id="certificate">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Certificates.</h1>
+            <h1>Here are Some of My Certificates.</h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
