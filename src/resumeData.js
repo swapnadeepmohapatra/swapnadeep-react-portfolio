@@ -18,9 +18,14 @@ let resumeData = {
       className: "fa fa-github"
     },
     {
-      name: "skype",
+      name: "twitter",
       url: "http://twitter.com/swapnadeeptukk",
       className: "fa fa-twitter"
+    },
+    {
+      name: "instagram",
+      url: "http://instagram.com/swapnadeep_mohapatra",
+      className: "fa fa-instagram"
     }
   ],
   aboutme:

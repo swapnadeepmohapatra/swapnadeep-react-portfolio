@@ -36,6 +36,11 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
+                <a className="smoothscroll" href="#certificate">
+                  Certificates
+                </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
                 </a>

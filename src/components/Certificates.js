@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-export default class Porfolio extends Component {
+export default class Certificates extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio">
+      <section id="certificate">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Projects.</h1>
+            <h1>Check Out Some of My Certificates.</h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"

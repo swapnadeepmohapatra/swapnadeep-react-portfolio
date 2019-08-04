@@ -8,6 +8,8 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import Certificates from "./components/Certificates";
+import AchivementsHeader from "./components/AchivementsHeader";
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
         <WorkHeader resumeData={resumeData} />
         <Resume resumeData={resumeData} />
         <Portfolio resumeData={resumeData} />
+        <AchivementsHeader resumeData={resumeData} />
+        <Certificates resumeData={resumeData} />
         <Testimonials resumeData={resumeData} />
         <ContactUs resumeData={resumeData} />
         <Footer resumeData={resumeData} />
